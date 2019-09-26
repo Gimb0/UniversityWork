@@ -1,0 +1,27 @@
+List all the possible operations on a stack. Write pseudo code for each of these operations.
+
+pop
+	decrement stackTop variable
+	stack[stackTop] equals NULL
+
+push
+	stack[stackTop] equals value
+	increment stackTop variable
+
+initialisation:
+	Set stackTop variable to 0
+
+isEmpty
+	if stackTop equals 0
+		return true
+	else
+		return false
+
+isFull
+	if stackTop equals stackSize
+		return true
+	else
+		return false
+
+retrieveTop
+	return stack[stackTop]

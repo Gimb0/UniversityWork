@@ -1,0 +1,1 @@
+ A template class defines member variables and methods that will be used by classes. A class will use some or all of these member variables and methods but also define their own.

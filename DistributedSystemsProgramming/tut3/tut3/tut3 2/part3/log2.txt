@@ -1,0 +1,33 @@
+Dimesnions and Mass:  1
+Will cost $1.000000 to ship
+ 
+Dimesnions and Mass:  11
+Will cost $11.000000 to ship
+ 
+Dimesnions and Mass:  21
+Will cost $21.000000 to ship
+ 
+Dimesnions and Mass:  31
+Will cost $31.000000 to ship
+ 
+Dimesnions and Mass:  41
+Will cost $41.000000 to ship
+ 
+Dimesnions and Mass:  51
+Will cost $51.000000 to ship
+ 
+Dimesnions and Mass:  61
+Will cost $61.000000 to ship
+ 
+Dimesnions and Mass:  71
+Will cost $71.000000 to ship
+ 
+Dimesnions and Mass:  81
+Will cost $81.000000 to ship
+ 
+Dimesnions and Mass:  91
+Will cost $91.000000 to ship
+ 
+Dimesnions and Mass:  101
+Will cost $101.000000 to ship
+ 

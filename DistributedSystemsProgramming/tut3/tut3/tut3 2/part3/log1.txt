@@ -1,0 +1,40 @@
+Dimensions:  1 , mass:  1
+Has Surface area: 150.000000
+Has Volume: 125.000000
+ 
+Dimensions:  6 , mass:  1
+Has Surface area: 600.000000
+Has Volume: 1000.000000
+ 
+Dimensions:  11 , mass:  1
+Has Surface area: 1350.000000
+Has Volume: 3375.000000
+ 
+Dimensions:  16 , mass:  1
+Has Surface area: 2400.000000
+Has Volume: 8000.000000
+ 
+Dimensions:  21 , mass:  1
+Has Surface area: 3750.000000
+Has Volume: 15625.000000
+ 
+Dimensions:  26 , mass:  1
+Has Surface area: 5400.000000
+Has Volume: 27000.000000
+ 
+Dimensions:  31 , mass:  1
+Has Surface area: 7350.000000
+Has Volume: 42875.000000
+ 
+Dimensions:  36 , mass:  1
+Has Surface area: 9600.000000
+Has Volume: 64000.000000
+ 
+Dimensions:  41 , mass:  1
+Has Surface area: 12150.000000
+Has Volume: 91125.000000
+ 
+Dimensions:  46 , mass:  1
+Has Surface area: 15000.000000
+Has Volume: 125000.000000
+ 

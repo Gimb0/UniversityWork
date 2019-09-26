@@ -1,0 +1,19 @@
+Part One
+Using a bash script to execute box_client binary file with different dimensions and the same mass, I found that the surface area and volume changed each time the dimensions increased by 5.
+The volume of the largest dimension in each group determines the volume of the package.
+Eg. Dimensions of 1-5 has volume of 125, and the volume of a box with dimensions of 5 has volume of 125.
+    Dimensions of 6-10 has volume of 1000, and the volume of a box with dimensions of 10 has volume of 1000.
+    Dimensions of 11-15 has volume of 3375, and the volume of a box with dimensions of 15 has a volume of 3375.
+
+Part Two
+Same as part one except it changes the value of the mass and dimensions. The output of this script shows that the cost only changes with the mass. I don't believe this result is true but can't see any errors on my end. I'd expect it to change with the mass and the different boxes used.
+
+Output of box_client
+Box with dimensions:
+	Lenght: 10000.000000
+	Width: 10000.000000
+	Height: 10000.000000
+Has Surface area: 600000000.000000
+Has Volume: 999999995904.000000
+And mass: 1.000000
+Will cost $1.000000 to ship

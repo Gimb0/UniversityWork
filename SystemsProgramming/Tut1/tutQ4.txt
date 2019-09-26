@@ -1,0 +1,3 @@
+get temperature
+calculate temperature in celcius {formula: 5*(fah-32)/9}
+display temperature conversion

@@ -1,0 +1,59 @@
+* {
+    padding:0;
+    margin:0;
+    font-family:Arial, sans-serif;
+}
+
+form {
+    padding:20px;
+}
+
+form div {
+    margin-top:10px;
+}
+
+label {
+    display:inline-block;
+}
+
+input {
+    border-radius:5px;
+}
+
+input[type="submit"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input[type="text"], input[type="number"], input[type="submit"], select {
+    height:25px;
+    font-size:1em;
+    padding:4px;
+    width:95%;
+    border:1px solid #ccc;
+}
+
+ input[type="submit"] {
+    padding:10px;
+    height:inherit;
+    background-color:#7db54a;
+    width:100%;
+ }
+
+select {
+    height:33px;
+}
+
+@media screen and (min-width:420px) {
+    input[type="text"], input[type="number"], input[type="submit"], select {
+        width:200px;
+    }
+    label {
+        width:150px;
+    }
+    .radioAndCheckBoxLabel {
+        width:inherit;
+    }
+
+}

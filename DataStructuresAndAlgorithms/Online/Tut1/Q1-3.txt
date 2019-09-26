@@ -1,0 +1,25 @@
+1.
+class AA {
+     public:
+          void print();
+          int sum();
+          AA();
+          int AA(int, int);
+     private:
+          int x;
+int y;
+};
+
+The problem in this class declaration is line 7 {int AA(int, int)}
+
+2.
+class BB {
+     int one;
+     int two;
+public;
+		bool equal();
+        print();
+        BB(int, int);
+}
+
+The problem in this class is the print method. Not given a return type.

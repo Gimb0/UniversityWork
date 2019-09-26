@@ -1,0 +1,9 @@
+count
+some
+characters
+and
+their
+frequency
+information
+security
+things

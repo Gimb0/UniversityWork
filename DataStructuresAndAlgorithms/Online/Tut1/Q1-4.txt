@@ -1,0 +1,53 @@
+class yClass {
+public:
+     void one();
+     void two(int, int);
+     yClass();
+private:
+     int a;
+	 int b;
+};
+
+class xClass: public yClass {
+public:
+	void one();
+    xClass();
+private:
+	int z;
+};
+
+yClass y;
+xClass x;
+
+a. The private members of yClass are public members of xClass. True or False? False
+b. Mark the following statements as valid or invalid. If a statement is invalid, explain
+why.
+
+i.
+void yClass::one() {
+    cout << a + b << endl;
+}
+
+valid
+
+ii.
+y.a = 15;
+x.b = 30;
+
+invalid - a is a private member variable and therefore cannot be accessed directly.
+
+iii.
+void xClass::one() {
+    a = 10;
+	b = 15;
+	z = 30;
+	cout << a + b + z << endl;
+}
+
+Valid.
+
+
+iv.
+cout << "y.a" << " " << y.b << " " << x.z << endl;
+
+Valid.

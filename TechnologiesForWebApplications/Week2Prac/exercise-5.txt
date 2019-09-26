@@ -1,0 +1,31 @@
+Breeds of Dog
+
+Exercise 3 Exercise 4 Exercise 5 Exercise 6
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate tortor sed semper efficitur. Nulla facilisi. Aliquam nibh augue, tempus sit amet suscipit sit amet, pulvinar at purus.
+
+Dog Breeds
+
+Breed
+Weight
+Life Span
+
+
+Afghan Hound
+25-28kgs
+>=14 years
+
+
+Australian Cattle Dog
+16-20kg
+>=14 years
+
+
+Chihuahua
+1-3kg
+>=20 years
+
+
+German Shepard
+34-36kg
+>=10 years
