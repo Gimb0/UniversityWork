@@ -1,0 +1,19 @@
+1. Explain the purposes of the classes: SChatServer and SChatter
+
+SChatServer: This class retrieves a port number from the user and configures a socket to listen for connections on that port. When a client connects to the given port number, an SChatter instance is created and controls execution. The SChatter class configures IO streams and broadcasts messages to all clients
+
+2. 
+
+Socket client = server.accept();
+
+Description
+	The ServerSocket accept() method returns a socket when a client connects to the ServerSocket. So the Socket client variable is a network socket connection to the connected client
+Purpose
+	Get the socket connection to the newly connected client
+
+new SChatter(client).start();
+
+Description
+	The preivously initialised client variable is passed to a new SChatter instance. After the constructor is executed, the Thread method start() is executed.
+Purpose
+	Pass control to the SChatter class

@@ -1,0 +1,13 @@
+Describe briefly the main technical steps involved in setting up a network server in Java via TCP/IP
+1. Create a Server Socket object which defines the port number for the connection and the maximum number of clients that can connect to the server.
+2. Create the socket connection to allow connections from clients
+3. Configure the IO streams to allow for communication with the client through the socket
+4. Read and write to the socket
+5. Close the socket connection
+
+
+Describe briefly the main technical steps involved in setting up a network client in Java via TCP/IP
+1. Create a socket object which defines the server address and port number to connect to.
+2. Configure the IO streams to allow for communication with the server through the socket
+3. Read and write to the socket
+4. Close the socket

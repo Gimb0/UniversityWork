@@ -1,0 +1,25 @@
+1. The output files of running `javac test.java` are A.class and B.class
+
+2. In Java, subclasses do not inherit the constructors of their superclass.
+Because of this, a B object has two constructors, B() and B(Boolean x).
+Both of these constructors call the method super() which in this context, calls the supperclasses constructor.
+The constructor B() is a default constructor and B(Boolean x) is an overloaded constructor of B().
+
+3. Executing `java B` returns the result 1 and 99.
+This results was expected because: 
+The f Method of Class A cannot be overridden because it is private.
+This is where the output of 1 comes from.
+The g Method of Class A is overridden by Class B.
+This is where the output of 99 comes from.
+
+`java A` fails to execute because the class A does not contain a main method.
+
+4. Changing the g method for class A to a private method, 
+causes the output of executing `java B` to be 1 and 11.i
+This is because Class B cannot override Method g() from Class A
+
+
+5. No the source file cannot be compiled.
+Java Compilers require that each source file only contain a single public class. 
+This is for optimizing the compilation process.
+https://dzone.com/articles/why-single-java-source-file-can-not-have-more-than
