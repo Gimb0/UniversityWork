@@ -1,5 +1,0 @@
-	Solve Manhattan Distance
-Create variables for solving
-	This include queue of previous states
-Get possible moves - store them in char array, and num of moves to loop through them
-

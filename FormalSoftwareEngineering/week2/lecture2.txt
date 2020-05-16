@@ -1,0 +1,24 @@
+1. Transition systems
+
+
+3.
+
+
+4. Output of executing original int-divsion.pml
+
+15 / 4 = 3, remainder = 3
+1 process created
+
+Output of executing `spin -t int-division.pml`
+
+"""
+      16 / 4 = 3, remainder = 4
+spin: int-division.pml:20, Error: assertion violated
+spin: text of failed assertion: assert(((0<=remainder)&&(remainder<divisor)))
+spin: trail ends after 6 steps
+#processes: 1
+  6:	proc  0 (P:1) int-division.pml:22 (state 15) <valid end state>
+1 process created
+"""
+
+5. Program is loop.pml

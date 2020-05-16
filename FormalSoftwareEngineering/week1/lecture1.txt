@@ -1,0 +1,86 @@
+1. Propositional Logic
+
+Truth Values / Tables :
+	• AND LOGIC
+	• OR LOGIC
+	• NOT LOGIC
+	• p -> q LOGIC
+		T -> T = T
+		T -> F = F
+		F -> T = T
+		F -> F = T
+	• p <-> q LOGIC
+		T <-> T = T
+		T <-> F = F
+		F <-> T = F
+		F <-> F = T
+
+2. Output of `spin produce-consume.pml | more`
+      Produce.
+          Consume.
+      Produce.
+          Consume.
+      Produce.
+          Consume.
+	....
+	....
+	....
+	Produce.
+          Consume.
+      Produce.
+          Consume.
+      Produce.
+          Consume.
+      Produce.
+          Consume.
+      Produce.
+          Consume.
+
+Output of `spin -u14 produce-consume.pml | more`
+
+      Produce.
+          Consume.
+      Produce.
+          Consume.
+-------------
+depth-limit (-u14 steps) reached
+#processes: 2
+                turn = C
+ 14:    proc  1 (consume:1) producer-consumer.pml:16 (state 3)
+ 14:    proc  0 (producer:1) producer-consumer.pml:5 (state 4)
+2 processes created
+
+3. Output after modifying line 5
+
+	  Produce.
+          Consume.
+      Produce.
+          Consume.
+      Produce.
+      Produce.
+      Produce.
+          Consume.
+      Produce.
+          Consume.
+      Produce.
+          Consume.
+      Produce.
+      Produce.
+          Consume.
+      Produce.
+          Consume.
+      Produce.
+          Consume.
+      Produce.
+          Consume.
+      Produce.
+          Consume.
+      Produce.
+      Produce.
+          Consume.
+
+4. My explanaition for this output is that the function produce()
+will print "Produce" every time it is executed, whereas the function
+consume() will only print out "Consume" when the variable 'Turn' is set to C.
+
+
