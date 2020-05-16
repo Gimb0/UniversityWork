@@ -11,7 +11,7 @@ int main() {
 	cout << "How old are you: ";
 	cin >> age;
 
-	cout << "Hello " << name << " you " << age << " year old lil bitch\n";
+	cout << "Hello " << name << " you are " << age << " years old\n";
 
 	return 0;
 }
